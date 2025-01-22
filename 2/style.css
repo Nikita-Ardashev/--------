@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+}
+
+html {
+	background: black;
+}
+
+main {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+}
+
+video {
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+	height: 100%;
+	object-fit: cover;
+}
+
+p {
+	display: block;
+	position: relative;
+	font-family: 'Arial';
+	font-size: 9vw;
+	z-index: 1;
+	color: white;
+	background: black;
+
+	/* background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+p span {
+	display: inline-block;
+	background: black;
+	height: 5vw;
+}
