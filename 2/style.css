@@ -43,3 +43,7 @@ p span {
 	background: black;
 	height: 5vw;
 }
+
+canvas {
+	z-index: 1;
+}
